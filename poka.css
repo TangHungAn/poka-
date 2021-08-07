@@ -1,0 +1,12 @@
+@font-face{
+    font-family: penny;
+    src:url('setofont.ttf');
+}
+
+
+#font{
+    font-family: penny,serif;
+}
+p{
+    font-family: fantasy;
+}
