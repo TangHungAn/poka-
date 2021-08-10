@@ -1,12 +1,72 @@
-@font-face{
-    font-family: penny;
-    src:url('setofont.ttf');
+*{
+    box-sizing: border-box;
 }
-
-
-#font{
-    font-family: fantasy;
+body{
+    font-family: Ovo, Georgia, STZhongsong, "Microsoft YaHei", serif;
+    background-color:  #f1f1f1;
+    ;
 }
-p{
-    font-family: fantasy;
+.header{
+    padding: 170px;
+    text-align: center;
+    background-color:white;
 }
+#background{
+    
+    background-color: cover;
+}
+.button{
+    display: flex;
+    overflow: hidden;
+    padding: 19px;
+    background-color: rgba(7, 2, 2, 0.986);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.box1{
+    flex: 1;
+}
+.box2{
+    flex: 1;
+}
+.box3{
+    flex: 1;
+}
+.button a{
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 18px 25px;
+    text-decoration: none;
+}
+.button a:hover{
+    background-color:rgba(252, 248, 240, 0.774);
+}
+#cathand{
+    position: relative; 
+}
+.position1{
+    text-align: center;
+}
+h2{
+    font-size: 40px;
+}
+.card{
+    margin-left: auto;
+    margin-right: auto;
+}
+  p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+  }
+ .card img{
+      float: right;
+      border-radius: 25px;
+  }
+  ul li {
+      font-size: 30px;
+  }
